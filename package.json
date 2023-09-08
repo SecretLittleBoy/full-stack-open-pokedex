@@ -14,7 +14,7 @@
     "build": "webpack --mode production",
     "cypress:open": "cypress open",
     "test:e2e": "cypress run",
-    "deploy": "fly deploy"
+    "deploy": "flyctl deploy --remote-only"
   },
   "repository": {
     "type": "git",
